@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--🔘🔘🔘 import bootstrap 🔘🔘🔘 -->
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+    <!--🔘🔘🔘 font awesome 🔘🔘🔘 -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--🔘🔘🔘 animate css  🔘🔘🔘-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--🔘🔘🔘  import style file  🔘🔘🔘-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--🔘🔘🔘  import media style file 🔘🔘🔘 -->
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <!--🔘🔘🔘 icon tap 🔘🔘🔘-->
+    <link rel="icon" href="./images/favicon.ico">
+    <title>TGS / Home</title>
+</head>
+<body>
+    <!--🔘🔘🔘 start navigation  bar 🔘🔘🔘-->
+        <div class="my-navbar home-nav">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-2">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="./images/logo.png" alt="TGS-logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-2 d-xl-none icon-toggler" id="navOpen">
+                        <i class="fa fa-bars  open" id="closeNav"></i>
+                    </div>
+                    <div class="col-lg-10 nav-menu animate__animated" id="navMenu">
+                        <nav class="d-flex flex-column  justify-content-center">
+                            <div class="icon-toggler" id="navClose">
+                                <i class="fa fa-window-close d-xl-none  close"></i>
+                            </div>
+                            <div class="top-bar align-self-end">
+                                <ul class="list-unstyled d-flex justify-content-between align-items-center">
+                                    <li class="link">
+                                        <a href="#">
+                                            وظائف 
+                                        </a>
+                                    </li>
+                                    <li class="link">
+                                        <a href="#">
+                                            الاتصال بنا 
+                                        </a>
+                                    </li>
+                                    <li class="link">
+                                        <a href="#">
+                                            روابط مخصصة 
+                                        </a>
+                                    </li>
+                                    <div class="d-flex align-items-center">
+                                        <button class="btn btn-nav">En</button>
+                                        <button class="btn btn-nav">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </ul>
+                            </div>
+                            <ul class="list-unstyled d-flex justify-content-around">
+                                <li class="link">
+                                    <a href="#">من نحن</a>
+                                </li>
+                                <li class="link">
+                                    <a href="#">السلامة والصحة المهنية</a>
+                                </li>
+                                <li class="link">
+                                    <a href="#">ادارة الجودة المتكاملة</a>
+                                </li>
+                                <li class="link">
+                                    <a href="#">مجالات عمل الشركة</a>
+                                </li>
+                                <li class="link">
+                                    <a href="#">العملاء</a>
+                                </li>
+                                <li class="link">
+                                    <a href="#">الاعلام</a>
+                                </li>
+                                <li class="link">
+                                    <a href="#">تنمية الموارد البشرية</a>
+                                </li>
+                                <li class="link">
+                                    <a href="#">مدونة السلوك الوظيفي</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- 🔴🔴🔴 end navigation  bar 🔴🔴🔴-->
+    <div class="home-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 video-container">
+                    <div class="overlay"></div>
+                    <video id="headerVideo" class="header-video"  poster="./images/gallery_big1.jpg">
+                        <source src="./images/samplevideo2.mp4" type="video/mp4">
+                        <source src="./images/samplevideo2.ogg" type="video/ogg">
+                    </video>
+                    <div class="header-content d-flex flex-column justify-content-center align-items-center">
+                        <button class="btn play-btn" id="playBtn">
+                            <img src="./images/play-icon1.png" class="play-icon">
+                        </button>
+                        <p>نقوم بتشغيل وصيانة منشآت الغاز الطبيعي ومشاريع الطاقة وفقا لأحدث المعايير والمواصفات الفنية العالمية </p>
+                        <button class="btn read-btn c-btn">
+                            <a href="#">اقرا المزيد</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--🔘🔘🔘 start about  🔘🔘🔘-->
+        <div class="home-about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 ">
+                        <div class="heading c-h  justify-content-center">
+                            <h3 class="h-s">من نحن</h3>
+                            <img class="symbol" src="./images/symbol.png">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="content text-center">
+                            <p> 
+                                تأسست الشركة الفنية لخدمات تشغيل خطوط الغاز في عام 2018 كشركة ذات مسؤلية محدودة بموجب قانون الشركات الاردني وتعديلاته حيث تعمل الشركة عللي تشغيل وصياننة منشأت الغاز الطبيعي ومشاريع الطااقة وفقا لأحدث المعايير والمواصفات الفنية العالمية وتتكون شركة TGS
+                                وفريق العمل بها من ائتلاف شؤكات قطاع البترول المصري (شركة فجر الاردنية المصرية - شركة فجر المصرية - الشركة المصرية للغازات الطبيعية جاسكو ) وبدأت الشركة في تشغيل وصيانة خط الغاز العربي 36"وتسهيلاته في 2 مارس 2019 كما تعمل الشركة علي نقل الخبرات المصرية في مجالات الغاز الطبيعي - النفط والطاقة الي الكوادر البترولية الاردنية
+                            </p>
+                            <button class="btn c-btn">اقرا المزيد</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--🔴🔴🔴 end about  🔴🔴🔴-->
+    <!--🔘🔘🔘 start features 🔘🔘🔘-->
+    <div class="home-features">
+        <div class="container-fluid">
+            <!--❕❕❕❕ row 1 ❕❕❕❕-->
+            <div class="row align-items-center">
+                <div class="col-md-7  col-lg-6 order-2 order-md-0">
+                    <div class="feature-content text-center text-md-start ">
+                        <div class="heading c-h  justify-content-center justify-content-md-start">
+                            <h3 class="h-s">ادراة الجودة المتكاملة</h3>
+                            <img class="symbol" src="./images/symbol.png">
+                        </div>
+                        <strong>سياسة الجودة والسلامة والصحة المهنية وحماية البيئة</strong>
+                        <p>
+                            الشركة الفنية لخدمات تشغيل خطوط الغاز تقوم بأعمال صيانة وتشغيل خطوط الغاز ومشاريع الطاقة وتتعهد الشركة بتطبيق المنظومة الادارية لمتكاملة والتي تتطابق مع المواصفات القياسية
+                            <br>
+                            <strong class="alert">ISO 45001:2018</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5  col-lg-6 feature-img">
+                    <img src="./images/pics1.jpg" class="w-100  rd-left" alt="الجودة">
+                </div>
+            </div>
+            <!--❕❕❕❕ row 2 ❕❕❕❕-->
+            <div class="row align-items-center">
+                <div class="col-md-5  col-lg-6 feature-img">
+                    <img src="./images/pics2.jpg" class="w-100 rd-right" alt="الجودة">
+                </div>
+                <div class="col-md-7  col-lg-6">
+                    <div class="feature-content text-center text-md-start"> 
+                        <div class="heading c-h justify-content-center justify-content-md-start">
+                            <h3 class="h-s">السلامة والصحة المهنية وحياة البيئة</h3>
+                            <img class="symbol" src="./images/symbol.png">
+                        </div>
+                        <ul class="feature-list">
+                            <li>مراقبة الاثار السلبية للمؤثرات البيئية الناتجة عن أنشطة الشركة وآثارها والحد من تأثيرها</li>
+                            <li>مراقبة أداء السلامة والصحة المهنية من خلال الاحصائيات الدورية الدالة علي ذلك</li>
+                            <li>تولي الشركة الفنية لخدمات تشغيل خطوط الغاز اهتماما كبيراً للسلامة والصحة </li>
+                        </ul>
+                        <button class="btn c-btn feature-btn">اقرا المزيد</button>
+                    </div>
+                </div>
+            </div>
+            <!--❕❕❕❕ row 3 ❕❕❕❕-->
+            <div class="row align-items-center">
+                <div class="col-md-7  col-lg-6 order-2 order-md-0">
+                    <div class="feature-content text-center text-md-start">
+                        <div class="heading c-h justify-content-center justify-content-md-start">
+                            <h3 class="h-s">ادراة الجودة المتكاملة</h3>
+                            <img class="symbol" src="./images/symbol.png">
+                        </div>
+                        <strong>سياسة الجودة والسلامة والصحة المهنية وحماية البيئة</strong>
+                        <p>
+                            الشركة الفنية لخدمات تشغيل خطوط الغاز تقوم بأعمال صيانة وتشغيل خطوط الغاز ومشاريع الطاقة وتتعهد الشركة بتطبيق المنظومة الادارية لمتكاملة والتي تتطابق مع المواصفات القياسية
+                            <br>
+                            <strong class="alert">ISO 45001:2018</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5  col-lg-6 feature-img ">
+                    <img src="./images/pics3.jpg" class="w-100 rd-left " alt="الجودة">
+                </div>
+            </div>
+            <!--❕❕❕❕ row 4 ❕❕❕❕-->
+            <div class="row align-items-center">
+                <div class="col-md-5  col-lg-6 feature-img">
+                    <img src="./images/pics4.jpg" class="w-100 rd-right" alt="الجودة">
+                </div>
+                <div class="col-md-7 col-lg-6">
+                    <div class="feature-content text-center text-md-start">
+                        <div class="heading c-h justify-content-center justify-content-md-start">
+                            <h3 class="h-s">كلمة الرئيس</h3>
+                            <img class="symbol" src="./images/symbol.png">
+                        </div>
+                        <p>
+                            تأسست الشركة الفنية لخدمات تشغيل خطوط الغاز في عام 2018 كشركة ذات مسؤولية محدودة بموجب قانون الشركات الأردني وتعديلاته .حيث تعمل الشركة علي تشغيل وصيانة منشآت الغاز الطبيعي ومشاريع الطاقة وفقا لأحدث المعايير والمواصفات الفنية العالمية وتتكون شركة TGS وفريق العمل بها من ائتلاف شركات قطاع البترول المصري (شركة فجر الأردنية المصرية
+                        </p>
+                        <button class="btn c-btn feature-btn">اقرا المزيد</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--🔴🔴🔴 end features 🔴🔴🔴-->
+    <!--🔘🔘🔘 start partners 🔘🔘🔘-->
+        <div class="home-partners">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12">
+                        <div class="heading c-h   justify-content-center"justify-content-md-start>
+                            <h3 class="h-s">شركاء العمل</h3>
+                            <img class="symbol" src="./images/symbol.png">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-3">
+                        <img class="img-fluid" src="./images/partner-logo1.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-3">
+                        <img class="img-fluid" src="./images/partner-logo2.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img class="img-fluid" src="./images/partner-logo3.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-3">
+                        <img class="img-fluid" src="./images/partner-logo4.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-3">
+                        <img class="img-fluid" src="./images/partner-logo5.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-3">
+                        <img class="img-fluid" src="./images/partner-logo6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--🔴🔴🔴 end partners 🔴🔴🔴-->
+    <!--🔘🔘🔘 start footer 🔘🔘🔘-->
+    <div class="footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-list text-center text-md-start">
+                        <h4 class="heading">خريطة الموقع</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="#">الخدمات الهندسية</a>
+                            </li>
+                            <li>
+                                <a href="#">خدمات التوريدات والمشتريات</a>
+                            </li>
+                            <li>
+                                <a href="#">ادارة المشروعات</a>
+                            </li>
+                            <li>
+                                <a href="#">ادارة الانشاءات</a>
+                            </li>
+                            <li>
+                                <a href="#">خدمات تجارب وبدء التشغيل</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-list text-center text-md-start">
+                        <h4 class="heading">خريطة الموقع</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="#">الخدمات الهندسية</a>
+                            </li>
+                            <li>
+                                <a href="#">خدمات التوريدات والمشتريات</a>
+                            </li>
+                            <li>
+                                <a href="#">ادارة المشروعات</a>
+                            </li>
+                            <li>
+                                <a href="#">ادارة الانشاءات</a>
+                            </li>
+                            <li>
+                                <a href="#">خدمات تجارب وبدء التشغيل</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="footer-list text-center text-md-start">
+                        <h4 class="heading">تواصل معنا</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">اتصل بنا</a>
+                            </li>
+                            <li>
+                                <a href="#">تسجيل شكوى</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="footer-list text-center text-md-start">
+                        <div class="newsletter">
+                            <label>اشتراك</label>
+                            <div class="footer-input">
+                                <input type="email" placeholder="الايميل" >
+                                <button class="btn">
+                                    <img src="./images/prev-arrow.png" alt="prev-arrow">
+                                </button>
+                            </div>
+                            <p>
+                                    لن نشارك ابدا عنوان بريدك الالكتروني مع طرق ثالث
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--🔴🔴🔴 end footer 🔴🔴🔴-->
+    <!--🔘🔘🔘 scripts 🔘🔘🔘-->
+    <!--🔘🔘🔘 bootstrap bundle 🔘🔘🔘-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!--🔘🔘🔘 main script 🔘🔘🔘-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
